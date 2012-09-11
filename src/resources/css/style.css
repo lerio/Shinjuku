@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	color: #666;
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+	position: relative;
+	z-index: 1;
+}
+
+a {
+	outline:0;
+}
+
+li {
+	list-style-type: none;
+	margin-bottom: 25px;
+}
+
+h1, h2 {
+	font-size: 3em;
+	margin: 35px 0 25px;
+}
+
+#header {
+	font-size: 2em;
+	margin: 5px 0 5px;	
+}
+
+.recipeCont {
+	width: 101px;
+	height: 68px;
+	background-image: url('/resources/img/loading.gif');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#results p {
+	font-size: 2em;
+}
+
+#results p.abstract {
+	font-size: 0.8em;
+}
+
+#autocomplete {
+	font-size: 2em;
+}
+
+#more_button {
+	font-size: 2em;
+}
